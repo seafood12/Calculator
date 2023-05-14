@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <title>Calc</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+    
+    <body>
+        <div class="calculator">
+            <span id="title" class="title" maxlength="5" >0</span>
+                <div class="all-buttons">
+                    <div class="numbers"> 
+                        <div >
+                            <button id="one"  onclick="one()">1</button>
+                            <button id="two" onclick="two()">2</button>
+                            <button id="three" onclick="three()">3</button>
+                        </div>
+                        <div>
+                            <button id="four" onclick="four()">4</button>
+                            <button id="five" onclick="five()">5</button>
+                            <button id="six" onclick="six()">6</button>
+                        </div>
+                        <div>
+                            <button id="seven" onclick="seven()">7</button>
+                            <button id="eight" onclick="eight()">8</button>
+                            <button id="nine" onclick="nine()">9</button>
+                        </div>
+                        <div class="button-0">
+                            <button id="zero" onclick="zero()">0</button>
+                            <button class="button-equal" id="equal" onclick="equal()" >=</button>
+                            <button id="reset-button" onclick="reset()">AC</button>
+                        </div>
+                    
+                        
+                    
+                    </div>
+                    <div class="operations">
+                        <button id="plus"  onclick="sum()">+</button>
+                        <button id="minus" onclick="minus()">-</button>
+                        <button id="multiply" onclick="multiply()">*</button>
+                        <button id="divide" onclick="division()">/</button>
+                        
+                </div>   
+
+                    </div>
+        </div>
+        
+        <script src="app.js" ></script>
+    </body>
+
+
+      
+    <!-- 
+    <button id="sum" >+</button>
+    <button id="sum" >-</button>
+    <button id="sum" >*</button>
+    <button id="sum" >/</button>
+    <button id="sum" >=</button>
+ 
